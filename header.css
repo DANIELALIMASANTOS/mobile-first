@@ -12,12 +12,39 @@
  display:flex;
  justify-content: space-between;
  align-items: center;
-}
+ position:relative;}
 
- 
 .container{
  display:flex;
  align-items:center;}
 
 .container__imagem{
-   padding:1em;}
+   padding: 1em;}
+  
+.lista-meunu{
+display:none;
+position:absolute;
+top:100%;
+width:70vw;}
+
+.lista-meunu__titulo,.lista-menu__item{
+padding: 1em;
+background-color: var(--branco);}
+
+.lista-meunu__titulo{
+color: var(--amarelo);
+font-weight:700;}
+
+.lista-meunu__link{
+color: var(--roxo);
+text-transform: uppercase;
+text-decoration: none;}
+
+.container__titulo{
+display: none;}
+
+.container__botao{
+display: none;}
+
+.container__botao:checked~.lista-menu{
+display: block;}
