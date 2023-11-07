@@ -4,14 +4,13 @@
   background:url("../img/Menu.svg");
   display:inline-block;
   background-repeat:no-repeat;
-  background-position:center; 
-}
+  background-position:center;}
 
-.cabecalho {
+.cabecalho{
  background-color:var(--branco);
  display:flex;
  justify-content: space-between;
- align-items: center;
+ align-items:center;
  position:relative;}
 
 .container{
@@ -41,7 +40,7 @@ text-transform: uppercase;
 text-decoration: none;}
 
 .container__titulo{
-display: none;}
+display:none;}
 
 .container__botao{
 display: none;}
